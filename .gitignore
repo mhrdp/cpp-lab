@@ -1,0 +1,6 @@
+*.md~
+*.md.un~
+*.cpp~
+*.cpp.un~
+*.gitignore~
+*.gitignore.un~
