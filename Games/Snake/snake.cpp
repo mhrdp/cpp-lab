@@ -1,5 +1,5 @@
 # include <iostream>
-# include <ncurses>
+# include <conio.h>
 
 const int WIDTH = 20;
 const int HEIGHT = 20;
@@ -25,7 +25,7 @@ void Setup()
 
 void Draw()
 {
-	system("clear"); //system("cls");
+	system("cls"); //system("clear");
 
 	// Upper wall
 	for(int i = 0; i < WIDTH+1; i++)
@@ -71,23 +71,23 @@ void Draw()
 
 void Input()
 {
-	if(kbhit())
+	if(_kbhit())
 	{
-		switch(getch())
+		switch(_getch())
 		{
-			case "a":
+			case 'a':
 				dir = LEFT;
 				break;
-			case "d":
+			case 'd':
 				dir = RIGHT;
 				break;
-			case "w":
+			case 'w':
 				dir = UP;
 				break;
-			case "s":
+			case 's':
 				dir = DOWN;
 				break;
-			case "x":
+			case 'x':
 				gameOver = true;
 				break;
 		}

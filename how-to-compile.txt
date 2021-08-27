@@ -1,0 +1,15 @@
+requirements
+1. Visual Studio C++
+how to install: https://www.learncpp.com/cpp-tutorial/installing-an-integrated-development-environment-ide/
+
+You don't necessarily need the IDE, you only need the Developer Command Prompt, but the IDE is nice too if your computer can handle it, and also if you want to write and compile at the same place.
+
+2. Run the Developer Command Prompt
+You can get it from Start Menu, scroll down until you find Visual Studio dropdown menu, open it and choose Developer Command Prompt
+
+3. Go to designated folder where your project placed
+
+4. Run cl /EHsc <filename.cpp>
+This will begin the compiling processes.
+
+5. Run <filename.cpp> to run your cpp script
