@@ -9,6 +9,9 @@
 
 *.exe
 *.obj
+*.bat
+
+.vimbackup/
 
 # Folder
 conan-venv/
