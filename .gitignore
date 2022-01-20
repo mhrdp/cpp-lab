@@ -11,6 +11,8 @@
 *.obj
 *.bat
 
+requirements.txt
+
 .vimbackup/
 
 # Folder
