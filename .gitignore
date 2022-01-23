@@ -11,9 +11,11 @@
 *.obj
 *.bat
 
+desktop.ini
+
 requirements.txt
 
-.vimbackup/
-
 # Folder
+.vimbackup/
 conan-venv/
+.vs/
